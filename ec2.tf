@@ -12,7 +12,7 @@ module "ec2_instance" {
   ami                    = "ami-0279c3b3186e54acd"
   instance_type          = "t2.micro"
   monitoring             = true
-  subnet_id              = "subnet-0a62a58b1ade4d9d9"
+  subnet_id              = "subnet-abc"
 
  
 }
